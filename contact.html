@@ -4,42 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amor em 4 patas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contacts.css"
   </head>
   <body>
     <header>
-      <ul>
-        <li>
-          <a href="index.html"> Home </a>
-        </li>
-        <li>
-          <a href="contact.html">Contato </a>
-        </li>
-      </ul>
-    </header>
-    <section>
+      <nav>
+            <a href="index.html"> Home </a>
+            <a href="contact.html">Contato </a>
+            <a href="">Em breve</a>
+            </nav>
+      <h1>Lolla</h1>
+      </header>
+    <article>
       <h1>Entre em contato com a Lolla</h1>
+      
       <form action="">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" />
-
-        <label for="emial">e-mail</label>
-        <input type="email" id="email" />
-
-        <label for="assunto">assunto</label>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <button>enviar</button>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Insira o Nome"/>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Insira o Email" />
+        
+        <label for="assunto">Assunto</label>
+        <textarea name="assunto" id="assunto" cols="60" rows="5" placeholder="Insira uma mensagem"></textarea>
+        <button>Enviar</button>
+          
       </form>
-
+      <div id="endereco">
       <h2>Endereço:</h2>
 
       <p>Rua Domingos Lopes da Silva</p>
       <p>São Paulo - SP</p>
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.9641218387032!2d-46.7414435363856!3d-23.61939101179728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56b29c6bfc59%3A0x79dda56bc220aef1!2sPra%C3%A7a%20dos%20Cachorros!5e0!3m2!1spt-BR!2sbr!4v1704739029625!5m2!1spt-BR!2sbr" 
-      width="400" height="250" 
+      width="600" height="450" 
       style="border:0;" 
       allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    </section>
+        </div>
+    </article>
   </body>
 </html>
