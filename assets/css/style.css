@@ -1,33 +1,43 @@
-body{
-  background-color: #090916;
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  outline: none;
+  font-weigth: 400;
+}
+
+body {
+  background-color: #0A0A0A;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   width: 100%;
-  margin: 0%;
-  padding: 0%;
   margin-bottom: 50px;
 }
 
-header{
+header {
   display: flex;
-  flex-flow:column ;
-}
-header h1{
-      text-align: center;
-      font-size: 50px;
-      padding-top: 40px;
+  flex-flow: column;
 }
 
-nav{
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+nav {
   text-align: center;
   background-color: #150e42;
-  opacity: 80%;
-  padding: 15px;  
+  padding: 15px;
   width: 100%;
   margin: auto;
   position: fixed;
+  top: 0;
+  filter: opacity(0.9);
 }
-nav a{
+
+nav a {
   padding: 12px;
   margin: 5px;
   text-decoration: none;
@@ -36,21 +46,21 @@ nav a{
   border-bottom: solid;
 }
 
-nav a:hover{
+nav a:hover {
   color: #6f296e;
 }
 
-section{
+section {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
 
-#sobre{
+#sobre {
   border-style: hidden;
   background-color: #120926;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 30px;
   width: 75%;
   margin-bottom: 40px;
   padding-bottom: 40px;
@@ -60,31 +70,32 @@ section{
   box-shadow: 7px 5px
 }
 
-#sobre p{
+#sobre p {
   width: 75%;
   height: max-content;
   text-align: center;
   margin: auto;
 }
 
-#fotos{
+#fotos {
   display: flex;
   flex-flow: row;
   justify-content: center;
   margin-top: 40px;
 }
 
-#criador{
-    flex-flow: column;
-    text-align: center;
-    background-color: #120926;
-    width: 50%;
-    margin: auto;
-    padding-top: 3px;
-    padding-bottom: 15px;
-    margin-top: 50px;
+#criador {
+  flex-flow: column;
+  text-align: center;
+  background-color: #120926;
+  width: 50%;
+  margin: auto;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  margin-top: 50px;
 }
-#criador iframe{
+
+#criador iframe {
   flex-flow: row;
   margin: auto;
   box-shadow: 7px 5px;
